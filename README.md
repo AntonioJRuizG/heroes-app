@@ -2,6 +2,23 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
 
+## Tech
+
+```txt
+- Child Routes
+- Main Routes
+- Lazy Loading
+- Multiple Styles in the Same SPA
+- Angular Material
+- Interfaces and Typing
+- Custom Pipes
+- Environment Variables
+- Angular Material Autocomplete
+- HTTP Requests
+- JSON-Server
+- Prime Flex
+```
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
