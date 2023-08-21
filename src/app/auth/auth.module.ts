@@ -9,9 +9,8 @@ import { RegisterPageComponent } from './pages/register-page/register-page.compo
   declarations: [
     LayoutPageComponent,
     LoginPageComponent,
-    RegisterPageComponent
+    RegisterPageComponent,
   ],
-  imports: [CommonModule],
-  exports: [AuthRoutingModule],
+  imports: [CommonModule, AuthRoutingModule],
 })
 export class AuthModule {}
