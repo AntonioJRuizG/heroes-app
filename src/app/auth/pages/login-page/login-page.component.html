@@ -1,23 +1,24 @@
 <div class="flex flex-column">
-  <span class="text-lg mb-4">Login</span>
+  <span class="text-lg mb-4">Welcome back</span>
   <mat-form-field>
     <mat-label>
-      User
+      Email
     </mat-label>
-    <input type="text" matInput placeholder="User name">
+    <input type="text" matInput placeholder="you@example.es">
   </mat-form-field>
   <mat-form-field>
     <mat-label>
       Password
     </mat-label>
-    <input type="password" matInput placeholder="Password">
+    <input type="password" matInput placeholder="At least 8 characters">
   </mat-form-field>
   <button mat-button mat-flat-button color="primary">
-    <mat-icon>save</mat-icon>
-    Enter
+    Login
+    <mat-icon>login</mat-icon>
   </button>
 
   <div class="flex justify-content-end mt-5">
-    <a routerLink="/auth/new-account">Already have an account?</a>
+    <p>Don't you have an account?</p>
+    <a routerLink="/auth/new-account" class="ml-1"> Sign up</a>
   </div>
 </div>
