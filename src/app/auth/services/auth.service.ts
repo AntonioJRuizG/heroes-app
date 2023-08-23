@@ -23,7 +23,7 @@ export class AuthService {
         this.user = user;
       }),
       tap((user) => {
-        localStorage.setItem('token', user.id);
+        localStorage.setItem('token', 'jwt.token.jfdfiuf');
       })
     );
   }
