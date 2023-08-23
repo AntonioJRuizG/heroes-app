@@ -7,7 +7,6 @@ import { MatAutocompleteSelectedEvent } from '@angular/material/autocomplete';
 @Component({
   selector: 'app-search-page',
   templateUrl: './search-page.component.html',
-  styles: [],
 })
 export class SearchPageComponent {
   public searchInput = new FormControl('');
