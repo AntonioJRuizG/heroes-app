@@ -16,13 +16,14 @@
     </mat-nav-list>
   </mat-sidenav>
 
-  <mat-toolbar color="primary">
+  <mat-toolbar color="primary" class="flex justify-content-between">
     <button mat-icon-button (click)="sidenav.toggle()">
       <mat-icon>menu</mat-icon>
     </button>
-    <span class="spacer"></span>
-    <button mat-button>Log out</button>
-
+    <div class="flex justify-content-between align-content-center gap-2">
+      <span class="zoomin text-base">{{user?.email}}</span>
+      <button (click)="onLogout()" mat-button>Log out</button>
+    </div>
   </mat-toolbar>
   <div class="container p-4">
     <router-outlet></router-outlet>
