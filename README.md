@@ -17,6 +17,17 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - HTTP Requests
 - JSON-Server
 - Prime Flex
+
+- CRUD
+  - Create
+  - Read
+  - Update
+  - Delete
+
+- Pure & impure pipes
+- Snacks
+- Dialogs
+- Manual services inyection
 ```
 
 ## Development backend
